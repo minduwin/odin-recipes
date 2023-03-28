@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.line {
+    border: 1px solid rgb(214, 212, 212);
+    margin: 20px 50px;
+}
+
+.block1 {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 30px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.ingredients h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ingredients ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directions {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.directions h3 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.directions ol {
+    width: 800px;
+}
+
+.directions ol li {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: auto;
+    background-color: #cf2e2e;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 20px;
+}
